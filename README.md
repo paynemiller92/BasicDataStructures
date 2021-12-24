@@ -1,5 +1,5 @@
 
-# Discrete Mathematics
+# Basic Data Structures
 ![A Binary Search Tree (BST)](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Binary_tree.svg/300px-Binary_tree.svg.png)
 
 
