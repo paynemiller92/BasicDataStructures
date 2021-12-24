@@ -6,10 +6,15 @@ import com.paynemiller.datastructures.stack.ArrayStack;
 import com.paynemiller.datastructures.stack.Stack;
 
 public class StringReverser {
+  private final Stack<Character> letterStack;
+
+  public StringReverser(Stack<Character> letterStack) {
+    this.letterStack = letterStack;
+  }
+
   public String reverse(String string) {
     char[] letters = string.toCharArray();
     StringBuilder reversedStringBuilder = new StringBuilder();
-    Stack<Character> letterStack = new ArrayStack<>(Character.class, letters.length);
     for (char letter: letters) {
       try {
         letterStack.push(letter);
